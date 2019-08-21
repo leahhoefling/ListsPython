@@ -23,7 +23,16 @@ print("-----------------")
 print("Rocky Planets:")
 for planet in rocky_planets:
     print(planet)
+
 # Being good amateur astronomers, we know that Pluto is now a dwarf planet, so use the del operation to remove it from the end of planet_list.
+del planet_list[8: 9]
+print("-----------------")
+print("Poor pluto is removed from all planets:")
+for planet in planet_list:
+    print(planet)
+
+
+
 # Challenge: Iterating over planets
 # Create another list containing tuples. Each tuple will hold the name of a spacecraft that we have launched, and the names of the planet(s) that it has visited, or landed on.
 # # Example spacecraft list
